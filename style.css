@@ -1,0 +1,71 @@
+.logocss{
+  border-radius:25px;
+}
+
+body{
+    background-color: hsla(0, 100%, 90%, 0.3);
+    height: auto;
+    margin: 0;  
+}
+
+<style>
+center{
+padding: 70px 0;
+}
+</style>
+
+/* Page content */
+.content {
+  padding: 10px;
+}
+
+
+h3{ 
+font-size:20px;
+text-decoration: underline;
+}
+h2{ 
+font-size:20px;
+text-decoration: underline;
+}
+h6{ 
+font-size:20px;
+text-decoration: underline;
+}
+h4{ 
+font-size:20px;
+text-decoration: underline;
+}
+h5{ 
+font-size:20px;
+text-decoration: underline;
+}
+h7{ 
+font-size:20px;
+text-decoration: underline;
+font-weight: bold;
+class="center";
+}
+h8{ 
+font-size:20px;
+text-decoration: underline;
+font-weight: bold;
+}
+
+/* Zoom on Hover : https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+* {
+    box-sizing: border-box;
+  }
+  .zoom {
+    transition: transform .2s;
+    width: 257px;
+    height: 260px;
+    margin: 0 auto;
+    background-image: url("img/profilehtml.png");
+  }
+
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
